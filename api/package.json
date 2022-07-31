@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -L"
   },
   "author": "",
   "license": "ISC",
@@ -19,11 +20,16 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^2.2.0",
     "lodash": "^4.17.21",
+    "mercadopago": "^1.5.14",
     "moment": "^2.29.4",
     "mongodb": "^4.8.1",
     "mongoose": "^6.5.0",
     "pg": "^8.7.3",
     "sequelize": "^6.21.3",
     "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
   }
 }
