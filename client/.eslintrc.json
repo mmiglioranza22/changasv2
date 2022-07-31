@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard",
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react", "react-hooks"
+    ],
+    "rules": {
+        "no-use-before-define": [2, { "functions": false, "classes": true }],
+        "no-unused-vars": [
+          "error",
+          {
+            "vars": "all",
+            "args": "after-used"
+          }
+        ],
+        "prefer-const": "error",
+        "no-tabs": "off",
+        "no-useless-return": "off",
+        "react/style-prop-object": "error",
+        "react/no-will-update-set-state": [2],
+        "react/jsx-key": 2,
+        "react/jsx-curly-spacing": [2, "never"],
+        "react/self-closing-comp": 2,
+        "no-console": [2],
+        "react/no-unused-prop-types": [2],
+        "react/jsx-no-bind": [2],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+    }
+}
