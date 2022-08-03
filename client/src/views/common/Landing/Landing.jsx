@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 
 const Landing = props => {
   return (
-    <div>Landing</div>
+    <div>Landing {props}</div>
   )
 }
 
 Landing.propTypes = {
-    props: PropTypes.object.isRequired
+  props: PropTypes.object.isRequired
 }
 
 export default Landing
