@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 /**
  * Switcher redirects to different routes, depending which app is being used
@@ -8,15 +8,15 @@ import PropTypes from 'prop-types'
  * Sign in -> /sign_in
  * Home -> /home
  * Forbidden -> /unauthorized
- * Error -> /notfound
- * 
+ * Error -> /notfound , / * wildcard
+ * Profile -> /profile
+ * About -> /about
 
 */
 
 const Switcher = props => {
   return (
-    <div>Switcher</div>
-    
+    <div>Switcher{props}</div>
   )
 }
 
