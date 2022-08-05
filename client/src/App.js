@@ -1,10 +1,13 @@
 import React from 'react'
-// import { BrowserRouter } from "react-router-dom"
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter } from 'react-router-dom'
+import Switcher from './layout/Switcher'
 
 function App () {
   return (
     <>
      App
+     <Switcher/>
     </>
   )
 }

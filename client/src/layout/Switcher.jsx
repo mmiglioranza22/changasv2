@@ -13,10 +13,11 @@ import React from 'react'
  * About -> /about
 
 */
-
 const Switcher = props => {
+  // eslint-disable-next-line no-console
+  console.log(props)
   return (
-    <div>Switcher{props}</div>
+    <div>Switcher</div>
   )
 }
 
