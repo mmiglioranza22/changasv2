@@ -1,5 +1,8 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// eslint-disable-next-line no-unused-vars
+import PropTypes from 'prop-types'
+import Landing from '../views/common/Landing/Landing'
 
 /**
  * Switcher redirects to different routes, depending which app is being used
@@ -13,11 +16,14 @@ import React from 'react'
  * About -> /about
 
 */
-const Switcher = props => {
-  // eslint-disable-next-line no-console
-  console.log(props)
+const Switcher = () => {
   return (
-    <div>Switcher</div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+      </Routes>
+    </BrowserRouter>
+
   )
 }
 
