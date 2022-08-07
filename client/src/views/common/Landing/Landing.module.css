@@ -1,4 +1,5 @@
 .root {
+  margin: 0;
   display: flex;
   border: 2px solid red;
   height: auto;
